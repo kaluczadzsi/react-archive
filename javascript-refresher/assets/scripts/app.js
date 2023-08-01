@@ -41,3 +41,37 @@
 // const guest1 = new Guest('guest', 66);
 
 // console.log(guest1.greet());
+
+// const hobbies = ['Sports', 'Cooking', 'Reading'];
+// console.log(hobbies);
+
+// hobbies.push('Working');
+// console.log(hobbies);
+
+// console.log(hobbies.findIndex((hobby) => hobby === 'Cooking'));
+
+// console.log(hobbies.map((item) => item + '!'));
+
+// const editedHobbies = hobbies.map((item) => ({ text: item }));
+// console.log(editedHobbies);
+
+// function transformToObjects(numberArray) {
+//   return numberArray.map((item) => ({ val: item }));
+// }
+
+// console.log(transformToObjects([1, 2, 3]));
+
+const userNameData = ['Max', 'Schwarzmüller'];
+
+const [firstName, lastName, empty] = userNameData;
+
+console.log(firstName, lastName);
+
+const user = {
+  //   name: 'Max',
+  age: 34,
+};
+
+const { name: userName = 20, age } = user;
+
+console.log(userName);
